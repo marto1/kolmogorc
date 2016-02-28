@@ -1,6 +1,18 @@
-compress and decompress a file using "code blocks"(see Kolmogorov complexity). 
+compress and decompress a file using "code blocks"(see Kolmogorov
+complexity).
 
-Example run: python compress.py blocks.txt out.txt
-output in: out.txt
+The compression is not strictly lossless or lossy as it depends on the
+code that represents the compressed form.
 
+It is not safe.
 
+The compressed form of a file is its "blocks" file + source code shipped.
+So for blocks2.txt(43 bytes) we also add secondexmp.py(43 bytes) = 86 bytes total.
+
+Example run: python compress.py blocks.txt out.txt 
+Output in: out.txt
+note: not a good case to use this compression method.
+
+Example run: python compress.py blocks2.txt out.txt 
+Output in: out.txt
+note: beats xz -9 in compression ratio.
