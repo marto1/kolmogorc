@@ -1,0 +1,6 @@
+[first-str]
+decompress = firstexmp/first
+lang = py3.2
+[second-str]
+decompress = firstexmp/second
+lang = py3.2

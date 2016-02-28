@@ -1,0 +1,6 @@
+compress and decompress a file using "code blocks"(see Kolmogorov complexity). 
+
+Example run: python compress.py blocks.txt out.txt
+output in: out.txt
+
+
