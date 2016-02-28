@@ -1,0 +1,10 @@
+$ wc out.txt
+  1000   1000 201000 out.txt
+
+$ wc out.txt.xz 
+  0   5 176 out.txt.xz
+
+$ wc blocks2.txt secondexmp.py
+ 3  7 43 blocks2.txt
+ 2  5 43 secondexmp.py
+ 5 12 86 total

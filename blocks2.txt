@@ -1,0 +1,3 @@
+[f]
+decompress = secondexmp/f
+lang = py3.2
